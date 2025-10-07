@@ -18,5 +18,6 @@ public class Main
         }
     AppointmentBook a = new AppointmentBook(schedule);
     a.printPeriod(2);
+    System.out.println(a.findFreeBlock(1, 5));
     }
 }
